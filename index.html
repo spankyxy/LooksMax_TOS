@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LooksMax_TOS</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background-color: #f5f5f5;
+        }
+        
+        header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 3rem 1rem;
+            text-align: center;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+        }
+        
+        header h1 {
+            font-size: 2.5rem;
+            margin-bottom: 0.5rem;
+        }
+        
+        header p {
+            font-size: 1.1rem;
+            opacity: 0.9;
+        }
+        
+        nav {
+            background-color: white;
+            padding: 1rem;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+        
+        nav ul {
+            list-style: none;
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 2rem;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        
+        nav a {
+            color: #667eea;
+            text-decoration: none;
+            font-weight: 500;
+            transition: color 0.3s ease;
+        }
+        
+        nav a:hover {
+            color: #764ba2;
+        }
+        
+        main {
+            max-width: 1200px;
+            margin: 2rem auto;
+            padding: 0 1rem;
+        }
+        
+        section {
+            background: white;
+            padding: 2rem;
+            margin-bottom: 2rem;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+        }
+        
+        section h2 {
+            color: #667eea;
+            margin-bottom: 1rem;
+            font-size: 1.8rem;
+        }
+        
+        section p {
+            margin-bottom: 1rem;
+            color: #555;
+        }
+        
+        .feature-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 1.5rem;
+            margin-top: 1rem;
+        }
+        
+        .feature-card {
+            background: #f9f9f9;
+            padding: 1.5rem;
+            border-radius: 8px;
+            border-left: 4px solid #667eea;
+        }
+        
+        .feature-card h3 {
+            color: #667eea;
+            margin-bottom: 0.5rem;
+        }
+        
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 2rem;
+            margin-top: 3rem;
+        }
+        
+        footer p {
+            margin: 0.5rem 0;
+        }
+        
+        .cta-button {
+            display: inline-block;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 0.75rem 1.5rem;
+            border-radius: 4px;
+            text-decoration: none;
+            font-weight: 600;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            margin-top: 1rem;
+        }
+        
+        .cta-button:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 4px 12px rgba(102, 126, 234, 0.4);
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>LooksMax_TOS</h1>
+        <p>Your comprehensive Terms of Service resource</p>
+    </header>
+    
+    <nav>
+        <ul>
+            <li><a href="#overview">Overview</a></li>
+            <li><a href="#features">Features</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+    
+    <main>
+        <section id="overview">
+            <h2>Welcome to LooksMax_TOS</h2>
+            <p>
+                This repository contains comprehensive Terms of Service documentation and resources. 
+                Whether you're building an application, running a platform, or need to understand 
+                essential legal requirements, this project provides valuable guidance and templates.
+            </p>
+            <p>
+                Our mission is to help developers and organizations create clear, fair, and 
+                comprehensive terms of service that protect both the platform and its users.
+            </p>
+        </section>
+        
+        <section id="features">
+            <h2>Key Features</h2>
+            <div class="feature-grid">
+                <div class="feature-card">
+                    <h3>📋 Complete Documentation</h3>
+                    <p>Comprehensive TOS templates and examples for various platforms and services.</p>
+                </div>
+                <div class="feature-card">
+                    <h3>⚖️ Legal Standards</h3>
+                    <p>Coverage of important legal considerations and compliance requirements.</p>
+                </div>
+                <div class="feature-card">
+                    <h3>🔍 Clear Guidelines</h3>
+                    <p>Well-organized, easy-to-understand policies and procedures.</p>
+                </div>
+                <div class="feature-card">
+                    <h3>📚 Resources</h3>
+                    <p>Additional resources and references to help you create effective TOS.</p>
+                </div>
+            </div>
+        </section>
+        
+        <section id="about">
+            <h2>About This Project</h2>
+            <p>
+                <strong>Repository:</strong> spankyxy/LooksMax_TOS
+            </p>
+            <p>
+                This project serves as a central hub for Terms of Service documentation. 
+                It includes templates, guides, and best practices for creating effective 
+                and legally sound terms of service documents.
+            </p>
+            <p>
+                Whether you're a startup, established company, or individual developer, 
+                these resources can help you establish clear communication with your users 
+                about how your service operates and what users can expect.
+            </p>
+            <a href="https://github.com/spankyxy/LooksMax_TOS" class="cta-button">View on GitHub</a>
+        </section>
+        
+        <section id="contact">
+            <h2>Get Started</h2>
+            <p>
+                Explore the repository to find the resources you need. Check out the documentation, 
+                templates, and guidelines to help you create your own Terms of Service.
+            </p>
+            <p>
+                Have questions or contributions? Feel free to open an issue or submit a pull request 
+                on the GitHub repository.
+            </p>
+        </section>
+    </main>
+    
+    <footer>
+        <p>&copy; 2026 LooksMax_TOS. All rights reserved.</p>
+        <p>
+            <a href="https://github.com/spankyxy/LooksMax_TOS" style="color: #667eea; text-decoration: none;">
+                GitHub Repository
+            </a>
+        </p>
+    </footer>
+</body>
+</html>
